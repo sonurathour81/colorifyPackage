@@ -1,11 +1,11 @@
 export class Log {
-  static success(msg: string) {
+  static success(...msg: any) {
     console.log(`%c ${msg}`, `color:green`);
   }
-  static danger(msg: string) {
+  static danger(...msg: any) {
     console.log(`%c ${msg}`, `color:red`);
   }
-  static info(msg: string) {
+  static info(...msg: any) {
     console.log(`%c ${msg}`, `color:black; background:yellow`);
   }
 }

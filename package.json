@@ -1,6 +1,6 @@
 {
-  "name": "colorify_package",
-  "version": "1.0.0",
+  "name": "colorify_package_demo",
+  "version": "1.0.1",
   "description": "Package to colorify console log",
   "main": "lib/index.js",
   "types": "/lib/index.d.ts",
