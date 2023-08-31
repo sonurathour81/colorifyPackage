@@ -1,0 +1,31 @@
+{
+  "name": "colorify_package",
+  "version": "1.0.0",
+  "description": "Package to colorify console log",
+  "main": "lib/index.js",
+  "types": "/lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonurathour81/colorifyPackage.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "sonu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonurathour81/colorifyPackage/issues"
+  },
+  "homepage": "https://github.com/sonurathour81/colorifyPackage#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
